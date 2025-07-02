@@ -4,7 +4,7 @@ import './Projects.css'
 import calculatorplaceholder from '../../img/calculator.jpeg'
 import todoplaceholder from '../../img/todo.jpeg'
 import portfolioplaceholder from '../../img/port.png'
-import hirePlaceholder from '../../img/hire.png';
+import tacosPlaceholder from '../../img/tacos.jpeg';
 
 const Projects = () => {
   const [filter, setFilter] = useState('all');
@@ -17,7 +17,7 @@ const Projects = () => {
       image: calculatorplaceholder,
       demoLink: "https://calculat0r.fly.dev",
       category: "web",
-      tech: ["Reacts", "CSS3", "HTML5"],
+      tech: ["Reacts", "CSS"],
       featured: true
     },
     {
@@ -27,18 +27,18 @@ const Projects = () => {
       image: todoplaceholder,
       demoLink: "https://tda75.fly.dev",
       category: "web",
-      tech: ["React", "Local Storage", "CSS3"],
+      tech: ["React", "Local Storage", "CSS"],
       featured: true
     },
     {
       id: 3,
-      title: "Weather Forecast App",
-      description: "Beautiful weather app with location-based forecasts and interactive maps",
-      image: hirePlaceholder,
-      demoLink: "#",
+      title: "Little Tacos-shop",
+      description: "Beautiful tacos shop, an italian resturant with the best recipe. You will love",
+      image: tacosPlaceholder,
+      demoLink: "https://special-tacos.fly.dev/",
       category: "web",
-      tech: ["React", "Weather API"],
-      featured: false
+      tech: ["React", "CSS"],
+      featured: true
     },
     {
       id: 4,

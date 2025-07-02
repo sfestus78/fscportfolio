@@ -1,23 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from 'react';
+import './index.css';
+import Navbar from './components/Navbar/Navbar';
+import Intro from './components/Intro/Intro';
+import About from './components/About/About';
+import Projects from './components/Projects/Projects';
+import Testimonials from './components/Testimonials/Testimonials';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
+
+// Main App Component
 function App() {
+  const [theme, setTheme] = useState('light');
+  
+  // Initialize theme from stored preference or default to light
+  useEffect(() => {
+    const savedTheme = 'light'; // Removed localStorage due to artifact restrictions
+    setTheme(savedTheme);
+  }, []);
+
+  // Apply theme changes
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme);
+  }, [theme]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={`app ${theme}`}>
+      <Navbar theme={theme} setTheme={setTheme} />
+      <Intro />
+      <About />
+      <Projects />  
+      <Testimonials />
+      <Contact />
+      <Footer />
     </div>
   );
 }

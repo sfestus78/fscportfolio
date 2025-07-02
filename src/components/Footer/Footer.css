@@ -68,7 +68,7 @@
   animation: slideUp 0.8s ease-out 0.2s both;
 }
 
-.nav-section h4 {
+/* .nav-section h4 {
   color: var(--text-primary);
   font-size: 1.1rem;
   font-weight: 700;
@@ -87,7 +87,7 @@
   height: 2px;
   background: var(--gradient-primary, linear-gradient(135deg, #6366f1, #8b5cf6));
   border-radius: 1px;
-}
+} */
 
 .nav-section button {
   display: block;
@@ -227,7 +227,8 @@
   }
 }
 
-/* Responsive Design */
+
+
 @media (max-width: 1024px) {
   .footer-content {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

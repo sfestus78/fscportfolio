@@ -1,5 +1,3 @@
-/* Hero Section Styles */
-
 .intro {
   min-height: 100vh;
   display: flex;
@@ -190,7 +188,7 @@
     transform: scale(1.05);
 }
 
-/* Responsive Design */
+
 @media (max-width: 1024px) {
   .intro-container {
     gap: 2rem;

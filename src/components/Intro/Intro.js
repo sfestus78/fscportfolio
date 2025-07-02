@@ -6,7 +6,7 @@ const Intro = () => {
   const [displayText, setDisplayText] = useState('');
   const [currentRole, setCurrentRole] = useState(0);
 
-  const roles = useMemo(() => ['Software Developer', 'Frontend Engineer', 'React Specialist', 'UI/UX Enthusiast'], []);
+  const roles = useMemo(() => ['Software Developer', 'Frontend Engineer', 'React'], []);
 
   useEffect(() => {
     const typeWriter = () => {

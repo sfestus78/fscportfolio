@@ -3,7 +3,6 @@ import './About.css'
 import {FaCode, FaPalette, FaMobile, FaCss3, FaReact,FaJs,FaFigma} from 'react-icons/fa';
 import fourth_profile from '../../img/p5.png';
 
-// Enhanced About Component
 const About = () => {
   const [activeTab, setActiveTab] = useState('about');
   const [isExpanded, setIsExpanded] = useState(false);

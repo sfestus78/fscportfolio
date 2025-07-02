@@ -19,7 +19,7 @@ const Footer = () => {
           
           <div className="footer-nav">
             <div className="nav-section">
-              <h4>Navigation</h4>
+              {/* <h4>Navigation</h4> */}
               <button onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}>About</button>
               <button onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}>Projects</button>
               <button onClick={() => document.getElementById('testimonials-section')?.scrollIntoView({ behavior: 'smooth' })}>Testimonials</button>

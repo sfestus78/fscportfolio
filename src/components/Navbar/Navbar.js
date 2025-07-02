@@ -5,8 +5,6 @@ import logo_dark from '../../img/logo-dark.png'
 import toggle_light from '../../img/day.png'
 import toggle_dark from '../../img/night.png'
 
-
-// Enhanced Navbar Component
 const Navbar = ({ theme, setTheme }) => {
   const [isScrolled, setIsScrolled] = useState(false);
 

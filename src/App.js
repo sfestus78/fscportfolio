@@ -8,18 +8,15 @@ import Testimonials from './components/Testimonials/Testimonials';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 
-
-// Main App Component
 function App() {
   const [theme, setTheme] = useState('light');
   
-  // Initialize theme from stored preference or default to light
+  // Initialize theme default to light
   useEffect(() => {
-    const savedTheme = 'light'; // Removed localStorage due to artifact restrictions
+    const savedTheme = 'light';
     setTheme(savedTheme);
   }, []);
 
-  // Apply theme changes
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
   }, [theme]);

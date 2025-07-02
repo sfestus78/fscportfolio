@@ -1,5 +1,3 @@
-/* Navbar.css - Navigation Component Styles */
-
 .navbar {
   position: fixed;
   top: 0;
@@ -131,7 +129,7 @@
   transform: rotate(180deg);
 }
 
-/* Mobile Responsive */
+
 @media (max-width: 768px) {
   .nav-container {
     padding: 0 1rem;

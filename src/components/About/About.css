@@ -23,7 +23,7 @@
   z-index: 1;
 }
 
-/* Tab Navigation */
+/* Navigation */
 .about-nav {
   display: flex;
   justify-content: center;
@@ -60,7 +60,7 @@
   box-shadow: 0 4px 15px var(--shadow-light);
 }
 
-/* Content Layout */
+/* Content */
 .about-content {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -296,7 +296,8 @@
   100% { transform: translateX(100%); }
 }
 
-/* Responsive Design */
+
+
 @media (max-width: 1024px) {
   .about{
     padding: 2rem;

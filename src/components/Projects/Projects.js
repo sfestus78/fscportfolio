@@ -6,7 +6,6 @@ import todoplaceholder from '../../img/todo.jpeg'
 import portfolioplaceholder from '../../img/port.png'
 import hirePlaceholder from '../../img/hire.png';
 
-
 const Projects = () => {
   const [filter, setFilter] = useState('all');
   

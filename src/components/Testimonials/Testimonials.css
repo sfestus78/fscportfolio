@@ -195,7 +195,7 @@
   transform: scale(1.1);
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .testimonials-container {
     padding: 0 0.75rem;
@@ -207,7 +207,7 @@
   }
   
   .testimonial-card {
-    padding: 1.5rem 1rem;
+    padding: 2rem 1.5rem;
   }
   
   .testimonial-card::before {
@@ -233,7 +233,7 @@
   }
   
   .testimonial-card {
-    padding: 1rem 0.5rem;
+    padding: 1.5rem 1rem;
   }
   
   .testimonial-card::before {

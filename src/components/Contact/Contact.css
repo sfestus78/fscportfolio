@@ -132,7 +132,7 @@
   opacity: 0.7;
 }
 
-/* Hover Effects for Specific Cards */
+/* Hover Effects */
 .contact-card.linkedin:hover {
   background: linear-gradient(135deg, rgba(0, 119, 181, 0.1), var(--surface-color));
 }
@@ -195,7 +195,8 @@
 .contact-card:nth-child(5) { animation-delay: 0.4s; }
 .contact-card:nth-child(6) { animation-delay: 0.5s; }
 
-/* Responsive Design */
+
+
 @media (max-width: 768px) {
   .contact-container {
     padding: 0 1rem;

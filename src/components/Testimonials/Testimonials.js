@@ -2,7 +2,6 @@ import React from 'react'
 import './Testimonials.css'
 // import fourth_profile from '../../img/p5.png';
 
-// Enhanced Testimonials Component
 const Testimonials = () => {
   const testimonials = [
     {
